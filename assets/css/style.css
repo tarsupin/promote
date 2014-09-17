@@ -1,0 +1,27 @@
+
+/************************
+****** Page Layout ******
+************************/
+
+@media screen and (min-width:1421px) {
+	#content { background-color:white; margin-left:260px; max-width:100%; margin-right:305px; padding:22px; }
+	#panel-right { background-color:white; width:280px; }
+}
+
+@media screen and (min-width:1121px) and (max-width:1420px) {
+	#content { background-color:white; margin-left:260px; max-width:100%; margin-right:10px; padding:22px; }
+}
+
+@media screen and (min-width:921px) and (max-width:1120px) {
+	#content { background-color:white; margin-left:260px; margin-right:10px; padding:16px; }
+}
+
+@media screen and (min-width:501px) and (max-width:920px) {
+	#content { background-color:white; margin-left:0px; margin-right:10px; padding:12px; }
+}
+
+@media screen and (max-width:500px) {
+	#content { background-color:white; margin-left:0px; padding:10px; }
+}
+
+#panel-nav { width:245px; }
