@@ -1,11 +1,5 @@
 <?php if(!defined("CONF_PATH")) { die("No direct script access allowed."); } 
 
-// Prepare Notifications (if available)
-if(Me::$loggedIn)
-{
-	WidgetLoader::add("SidePanel", 1, Notifications::sideWidget());
-}
-
 // Main Navigation
 $html = '
 <div class="panel-box">
